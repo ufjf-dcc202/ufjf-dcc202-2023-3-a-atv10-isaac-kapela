@@ -1,28 +1,6 @@
-let maria = 2;
-let joao = 1;
+import { getJoao,getMaria } from "./joaoEMaria.js";
 
- function deJoaoParaMaria() {
-  maria += joao;
-  joao = 0;
-}
+console.log('modulo main');
 
-
- function deMariaParaJoao() {
-  joao += maria;
-  maria = 0;
-}
-
- function getMaria() {
-  return maria;
-}
- function getJoao() {
-  return joao;
-}
-
-export function setMaria(value) {
-  maria = value;
-}
-
-export function setJoao(value) {
-  joao = value;
-}
+console.log('João tem',getJoao(),'maças');
+console.log('Maria tem', getMaria(),'maças');
