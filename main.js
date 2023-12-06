@@ -5,7 +5,7 @@ let joao = 1;
   maria += joao;
   joao = 0;
 }
-,
+
 
  function deMariaParaJoao() {
   joao += maria;
